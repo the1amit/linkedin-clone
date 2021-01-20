@@ -22,7 +22,7 @@ function Login() {
             email: userAuth.user.email,
             uid: userAuth.user.uid,
             displayName: userAuth.user.displayName,
-            photoURL: userAuth.user.photoURL,
+            photoUrl: userAuth.user.photoURL,
           })
         );
       })
@@ -47,7 +47,7 @@ function Login() {
                 email: userAuth.user.email,
                 uid: userAuth.user.uid,
                 displayName: name,
-                photoURL: profilePic,
+                photoUrl: profilePic,
               })
             );
           });
